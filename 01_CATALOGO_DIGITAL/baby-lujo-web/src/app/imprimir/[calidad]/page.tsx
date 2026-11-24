@@ -239,7 +239,7 @@ function Pie({ num, total, edicion }: { num: number; total: number; edicion: str
   return (
     <footer className="pie">
       <span>Colección · {edicion}</span>
-      <span className="pie-num"><i>◆</i> {String(num).padStart(2, '0')} <em>/ {String(total).padStart(2, '0')}</em></span>
+      <span className="pie-num"><i aria-hidden="true" /> {String(num).padStart(2, '0')} <em>/ {String(total).padStart(2, '0')}</em></span>
     </footer>
   );
 }

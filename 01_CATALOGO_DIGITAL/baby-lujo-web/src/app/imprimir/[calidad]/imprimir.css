@@ -34,7 +34,7 @@
 .cabecera-cat { color: var(--color-bronce); }
 .pie { position: absolute; bottom: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline; font-size: 6.6pt; letter-spacing: .28em; text-transform: uppercase; color: var(--color-taupe); }
 .pie-num { font-family: var(--font-display); font-size: 8.5pt; letter-spacing: .12em; color: var(--color-tinta); }
-.pie-num i { font-style: normal; color: var(--color-dorado); font-size: 5pt; vertical-align: middle; margin-right: 1.5mm; }
+.pie-num i { display: inline-block; width: 1.3mm; height: 1.3mm; background: var(--color-dorado); transform: rotate(45deg); vertical-align: middle; margin: 0 2mm .4mm 0; }
 .pie-num em { font-style: normal; color: var(--color-taupe); font-size: 6.6pt; }
 
 /* Portada */
