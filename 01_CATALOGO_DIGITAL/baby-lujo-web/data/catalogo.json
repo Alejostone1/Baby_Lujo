@@ -1,0 +1,1591 @@
+{
+  "marca": {
+    "nombre": "BABY LUJO",
+    "firma": "BY JOAQUÍN RP",
+    "lema": "Delicadeza, elegancia y exclusividad desde los primeros momentos.",
+    "whatsapp": "+57 314 4264715",
+    "instagram": null,
+    "ciudad": null,
+    "moneda": "COP",
+    "actualizado": "2026-11-24"
+  },
+  "categorias": [
+    {
+      "id": "ocasion-especial",
+      "nombre": "Ocasión especial",
+      "descripcion": "Vestidos y conjuntos de ceremonia para los momentos que se recuerdan."
+    },
+    {
+      "id": "conjuntos",
+      "nombre": "Conjuntos",
+      "descripcion": "Prendas coordinadas, pensadas para combinarse con armonía."
+    },
+    {
+      "id": "enterizos",
+      "nombre": "Enterizos",
+      "descripcion": "Una sola pieza, suave y práctica, para el día a día del bebé."
+    },
+    {
+      "id": "overoles",
+      "nombre": "Overoles",
+      "descripcion": "Jardineras con carácter, de texturas nobles y detalles bordados."
+    },
+    {
+      "id": "bodies",
+      "nombre": "Bodies",
+      "descripcion": "Básicos esenciales con estampados delicados y acabados cuidados."
+    }
+  ],
+  "productos": [
+    {
+      "id": "BL-001",
+      "slug": "vestido-de-tul-con-perlas",
+      "nombre": "Vestido de tul con perlas",
+      "categoria": "ocasion-especial",
+      "descripcion": "Vestido marfil de tul con mangas transparentes, aplicaciones de perlas y flores, y bonete a juego.",
+      "piezas": [
+        "Vestido",
+        "Bonete"
+      ],
+      "colores": [
+        "Marfil"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-001.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": true,
+      "_origen": [
+        {
+          "foto": 25,
+          "archivoOriginal": "BL-001_vestido-de-tul-con-perlas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.15 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-002",
+      "slug": "vestido-de-tul-con-flores-bordadas",
+      "nombre": "Vestido de tul con flores bordadas",
+      "categoria": "ocasion-especial",
+      "descripcion": "Vestido blanco con corpiño cruzado, cinta en la cintura, mangas de tul y falda con flores aplicadas.",
+      "piezas": [
+        "Vestido"
+      ],
+      "colores": [
+        "Blanco"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-002.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 27,
+          "archivoOriginal": "BL-002_vestido-de-tul-con-flores-bordadas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.16 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-003",
+      "slug": "vestido-de-tul-con-lunares-y-bolero",
+      "nombre": "Vestido de tul con lunares y bolero",
+      "categoria": "ocasion-especial",
+      "descripcion": "Vestido de tul blanco con lunares y volantes en vino tinto, acompañado de bolero tejido vino tinto con cuello bebé.",
+      "piezas": [
+        "Vestido",
+        "Bolero"
+      ],
+      "colores": [
+        "Blanco",
+        "Vino tinto"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-003.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 51,
+          "archivoOriginal": "BL-003_vestido-de-tul-con-lunares-y-bolero.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.21 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-004",
+      "slug": "caballerito-vino-tinto",
+      "nombre": "Caballerito vino tinto",
+      "categoria": "ocasion-especial",
+      "descripcion": "Camisa blanca de manga corta con corbatín, tirantes rayados y short vino tinto con dobladillo.",
+      "piezas": [
+        "Camisa",
+        "Corbatín",
+        "Tirantes",
+        "Short"
+      ],
+      "colores": [
+        "Blanco",
+        "Vino tinto"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-004.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": true,
+      "_origen": [
+        {
+          "foto": 26,
+          "archivoOriginal": "BL-004_caballerito-vino-tinto.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.15 PM (4).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-005",
+      "slug": "caballerito-azul-noche",
+      "nombre": "Caballerito azul noche",
+      "categoria": "ocasion-especial",
+      "descripcion": "Camisa celeste de manga larga con corbatín azul marino, tirantes y pantalón azul noche.",
+      "piezas": [
+        "Camisa",
+        "Corbatín",
+        "Tirantes",
+        "Pantalón"
+      ],
+      "colores": [
+        "Celeste",
+        "Azul marino"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-005.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 28,
+          "archivoOriginal": "BL-005_caballerito-azul-noche.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.16 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-006",
+      "slug": "caballerito-celeste-con-chaleco",
+      "nombre": "Caballerito celeste con chaleco",
+      "categoria": "ocasion-especial",
+      "descripcion": "Camisa blanca de manga corta, chaleco y short celeste con corbatín a juego.",
+      "piezas": [
+        "Camisa",
+        "Chaleco",
+        "Short",
+        "Corbatín"
+      ],
+      "colores": [
+        "Blanco",
+        "Celeste"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-006.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 10,
+          "archivoOriginal": "BL-006_caballerito-celeste-con-chaleco.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.12 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-007",
+      "slug": "caballerito-marfil",
+      "nombre": "Caballerito marfil",
+      "categoria": "ocasion-especial",
+      "descripcion": "Camisa estampada de manga corta con corbatín, tirantes y short marfil.",
+      "piezas": [
+        "Camisa",
+        "Corbatín",
+        "Tirantes",
+        "Short"
+      ],
+      "colores": [
+        "Marfil",
+        "Blanco"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-007.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 37,
+          "archivoOriginal": "BL-007_caballerito-marfil.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.18 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-008",
+      "slug": "caballerito-con-boina",
+      "nombre": "Caballerito con boina",
+      "categoria": "ocasion-especial",
+      "descripcion": "Camisa a rayas finas con corbatín, tirantes, pantalón en tono salvia y boina a juego.",
+      "piezas": [
+        "Camisa",
+        "Corbatín",
+        "Tirantes",
+        "Pantalón",
+        "Boina"
+      ],
+      "colores": [
+        "Salvia",
+        "Crudo"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-008.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 40,
+          "archivoOriginal": "BL-008_caballerito-con-boina.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.19 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-009",
+      "slug": "ajuar-safari-de-cinco-piezas",
+      "nombre": "Ajuar Safari de cinco piezas",
+      "categoria": "conjuntos",
+      "descripcion": "Ajuar con chaqueta cruzada estampada con jirafa y elefante, pantalón con pies, pantalón, babero y gorro.",
+      "piezas": [
+        "Chaqueta",
+        "Pantalón con pies",
+        "Pantalón",
+        "Babero",
+        "Gorro"
+      ],
+      "colores": [
+        "Marfil",
+        "Rayas celeste"
+      ],
+      "variantes": [
+        {
+          "nombre": "Marfil",
+          "imagen": "BL-009-a.jpg"
+        },
+        {
+          "nombre": "Rayas celeste",
+          "imagen": "BL-009-b.jpg"
+        }
+      ],
+      "imagenes": [
+        "BL-009-a.jpg",
+        "BL-009-b.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 41,
+          "archivoOriginal": "BL-009-a_ajuar-safari-de-cinco-piezas_marfil.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.19 PM (3).jpeg"
+        },
+        {
+          "foto": 45,
+          "archivoOriginal": "BL-009-b_ajuar-safari-de-cinco-piezas_rayas-celeste.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.20 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-010",
+      "slug": "conjunto-tejido-safari",
+      "nombre": "Conjunto tejido Safari",
+      "categoria": "conjuntos",
+      "descripcion": "Cárdigan tejido marfil con elefante y jirafa bordados, botones de madera y pantalón tejido azul.",
+      "piezas": [
+        "Cárdigan",
+        "Pantalón"
+      ],
+      "colores": [
+        "Marfil",
+        "Azul"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-010.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 2,
+          "archivoOriginal": "BL-010_conjunto-tejido-safari.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.10 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-011",
+      "slug": "conjunto-pata-de-gallo",
+      "nombre": "Conjunto pata de gallo",
+      "categoria": "conjuntos",
+      "descripcion": "Body marfil con volantes en los hombros, falda pata de gallo, diadema con moño y medias a juego.",
+      "piezas": [
+        "Body",
+        "Falda",
+        "Diadema",
+        "Medias"
+      ],
+      "colores": [
+        "Marfil",
+        "Negro"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-011.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 42,
+          "archivoOriginal": "BL-011_conjunto-pata-de-gallo.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.19 PM (4).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-012",
+      "slug": "conjunto-floral-con-capucha",
+      "nombre": "Conjunto floral con capucha",
+      "categoria": "conjuntos",
+      "descripcion": "Chaqueta con capucha y pantalón jogger en estampado floral menudo, con franjas y moños rosa.",
+      "piezas": [
+        "Chaqueta",
+        "Pantalón"
+      ],
+      "colores": [
+        "Marfil",
+        "Rosa"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-012.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 9,
+          "archivoOriginal": "BL-012_conjunto-floral-con-capucha.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.12 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-013",
+      "slug": "conjunto-jardin-de-conejitos",
+      "nombre": "Conjunto Jardín de conejitos",
+      "categoria": "conjuntos",
+      "descripcion": "Camisa con cuello bebé y pantalón con pies, en estampado de flores y conejitos.",
+      "piezas": [
+        "Camisa",
+        "Pantalón con pies"
+      ],
+      "colores": [
+        "Marfil",
+        "Multicolor pastel"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-013.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 35,
+          "archivoOriginal": "BL-013_conjunto-jardin-de-conejitos.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.18 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-014",
+      "slug": "conjunto-polo-osito",
+      "nombre": "Conjunto polo Osito",
+      "categoria": "conjuntos",
+      "descripcion": "Buzo marfil con cuello polo, ribetes en contraste y osito bordado; pantalón café.",
+      "piezas": [
+        "Buzo",
+        "Pantalón"
+      ],
+      "colores": [
+        "Marfil",
+        "Café"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-014.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 12,
+          "archivoOriginal": "BL-014_conjunto-polo-osito.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.12 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-015",
+      "slug": "conjunto-colegial",
+      "nombre": "Conjunto colegial",
+      "categoria": "conjuntos",
+      "descripcion": "Suéter azul marino con cuello polo blanco y escote en V, acompañado de pantalón beige.",
+      "piezas": [
+        "Suéter",
+        "Pantalón"
+      ],
+      "colores": [
+        "Azul marino",
+        "Beige"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-015.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 29,
+          "archivoOriginal": "BL-015_conjunto-colegial.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.16 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-016",
+      "slug": "conjunto-chaleco-a-rayas",
+      "nombre": "Conjunto chaleco a rayas",
+      "categoria": "conjuntos",
+      "descripcion": "Camisa polo blanca con chaleco tejido y short a rayas azul y marfil.",
+      "piezas": [
+        "Camisa",
+        "Chaleco",
+        "Short"
+      ],
+      "colores": [
+        "Blanco",
+        "Azul"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-016.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 38,
+          "archivoOriginal": "BL-016_conjunto-chaleco-a-rayas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.19 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-017",
+      "slug": "conjunto-camisa-a-rayas",
+      "nombre": "Conjunto camisa a rayas",
+      "categoria": "conjuntos",
+      "descripcion": "Camisa de rayas celeste con cuello mao y short blanco.",
+      "piezas": [
+        "Camisa",
+        "Short"
+      ],
+      "colores": [
+        "Celeste",
+        "Blanco"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-017.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 30,
+          "archivoOriginal": "BL-017_conjunto-camisa-a-rayas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.16 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-018",
+      "slug": "conjunto-texturizado-con-gorro",
+      "nombre": "Conjunto texturizado con gorro",
+      "categoria": "conjuntos",
+      "descripcion": "Chaqueta, pantalón y gorro en tela de relieve de puntos, en gris azulado.",
+      "piezas": [
+        "Chaqueta",
+        "Pantalón",
+        "Gorro"
+      ],
+      "colores": [
+        "Gris azulado"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-018.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 32,
+          "archivoOriginal": "BL-018_conjunto-texturizado-con-gorro.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.17 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-019",
+      "slug": "conjunto-gris-cuello-polo",
+      "nombre": "Conjunto gris cuello polo",
+      "categoria": "conjuntos",
+      "descripcion": "Buzo gris con cuello polo y pantalón jogger gris.",
+      "piezas": [
+        "Buzo",
+        "Pantalón"
+      ],
+      "colores": [
+        "Gris"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-019.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 19,
+          "archivoOriginal": "BL-019_conjunto-gris-cuello-polo.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.14 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-020",
+      "slug": "conjunto-dino-roar-con-gorro",
+      "nombre": "Conjunto Dino Roar con gorro",
+      "categoria": "conjuntos",
+      "descripcion": "Camiseta y short celeste con estampado de dinosaurios, acompañados de gorro a juego.",
+      "piezas": [
+        "Camiseta",
+        "Short",
+        "Gorro"
+      ],
+      "colores": [
+        "Celeste",
+        "Azul marino"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-020.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 34,
+          "archivoOriginal": "BL-020_conjunto-dino-roar-con-gorro.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.18 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-021",
+      "slug": "enterizo-tejido-pinguino",
+      "nombre": "Enterizo tejido Pingüino",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo tejido con diseño de pingüino en gris, marfil y negro, con botones de madera.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Gris",
+        "Marfil",
+        "Negro"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-021.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 1,
+          "archivoOriginal": "BL-021_enterizo-tejido-pinguino.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.10 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-022",
+      "slug": "enterizo-tejido-osito",
+      "nombre": "Enterizo tejido Osito",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo tejido azul con osito al frente, mangas a cuadros y ribetes camel.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Azul",
+        "Camel"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-022.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 8,
+          "archivoOriginal": "BL-022_enterizo-tejido-osito.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.11 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-023",
+      "slug": "enterizo-de-peluche-osito",
+      "nombre": "Enterizo de peluche Osito",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo de peluche café con orejitas, gorro de osito y mitones a juego.",
+      "piezas": [
+        "Enterizo",
+        "Gorro",
+        "Mitones"
+      ],
+      "colores": [
+        "Café"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-023.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 39,
+          "archivoOriginal": "BL-023_enterizo-de-peluche-osito.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.19 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-024",
+      "slug": "enterizo-con-capucha-osito",
+      "nombre": "Enterizo con capucha Osito",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo de felpa marfil con capucha gris, osito bordado y pies en contraste.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Marfil",
+        "Gris"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-024.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 7,
+          "archivoOriginal": "BL-024_enterizo-con-capucha-osito.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.11 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-025",
+      "slug": "enterizo-acanalado-osito-con-gorro",
+      "nombre": "Enterizo acanalado Osito con gorro",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo acanalado camel con carita de oso y gorro con orejitas.",
+      "piezas": [
+        "Enterizo",
+        "Gorro"
+      ],
+      "colores": [
+        "Camel"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-025.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 22,
+          "archivoOriginal": "BL-025_enterizo-acanalado-osito-con-gorro.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.15 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-026",
+      "slug": "enterizo-osito-con-gorro",
+      "nombre": "Enterizo Osito con gorro",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo con pies de osito, carita al frente y gorro a juego.",
+      "piezas": [
+        "Enterizo",
+        "Gorro"
+      ],
+      "colores": [
+        "Taupe"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-026.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 33,
+          "archivoOriginal": "BL-026_enterizo-osito-con-gorro.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.17 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-027",
+      "slug": "enterizo-elefante",
+      "nombre": "Enterizo Elefante",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo gris acanalado con elefante aplicado y pies de elefante.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Gris"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-027.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 17,
+          "archivoOriginal": "BL-027_enterizo-elefante.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.13 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-028",
+      "slug": "enterizo-carritos",
+      "nombre": "Enterizo Carritos",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo marfil con estampado de carritos y animalitos, y ribetes tejidos.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Marfil",
+        "Multicolor"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-028.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 3,
+          "archivoOriginal": "BL-028_enterizo-carritos.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.10 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-029",
+      "slug": "enterizo-dinosaurios-con-capucha",
+      "nombre": "Enterizo Dinosaurios con capucha",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo con pies y capucha con orejitas, estampado de dinosaurios en verde sobre marfil.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Marfil",
+        "Verde"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-029.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 21,
+          "archivoOriginal": "BL-029_enterizo-dinosaurios-con-capucha.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.14 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-030",
+      "slug": "enterizo-dinosaurios-azul-con-gorro",
+      "nombre": "Enterizo Dinosaurios azul con gorro",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo con cremallera, mangas azules y estampado de dinosaurios, con gorro a juego.",
+      "piezas": [
+        "Enterizo",
+        "Gorro"
+      ],
+      "colores": [
+        "Blanco",
+        "Azul"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-030.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 36,
+          "archivoOriginal": "BL-030_enterizo-dinosaurios-azul-con-gorro.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.18 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-031",
+      "slug": "enterizo-corto-dinosaurio",
+      "nombre": "Enterizo corto Dinosaurio",
+      "categoria": "enterizos",
+      "descripcion": "Enterizo corto marfil con cuello polo y dinosaurio verde aplicado.",
+      "piezas": [
+        "Enterizo"
+      ],
+      "colores": [
+        "Marfil",
+        "Verde"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-031.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 20,
+          "archivoOriginal": "BL-031_enterizo-corto-dinosaurio.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.14 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-032",
+      "slug": "overol-de-pana-conejita",
+      "nombre": "Overol de pana Conejita",
+      "categoria": "overoles",
+      "descripcion": "Overol de pana rosa con conejita aplicada y botones al tono.",
+      "piezas": [
+        "Overol"
+      ],
+      "colores": [
+        "Rosa"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-032.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 4,
+          "archivoOriginal": "BL-032_overol-de-pana-conejita.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.10 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-033",
+      "slug": "overol-osita-con-corazones",
+      "nombre": "Overol Osita con corazones",
+      "categoria": "overoles",
+      "descripcion": "Overol beige acanalado con corazones rosa y osita bordada con moño.",
+      "piezas": [
+        "Overol"
+      ],
+      "colores": [
+        "Beige",
+        "Rosa"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-033.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 5,
+          "archivoOriginal": "BL-033_overol-osita-con-corazones.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.11 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-034",
+      "slug": "overol-de-pana-dinosaurio",
+      "nombre": "Overol de pana Dinosaurio",
+      "categoria": "overoles",
+      "descripcion": "Overol de pana verde con dinosaurio aplicado y crestas en el costado.",
+      "piezas": [
+        "Overol"
+      ],
+      "colores": [
+        "Verde"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-034.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 6,
+          "archivoOriginal": "BL-034_overol-de-pana-dinosaurio.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.11 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-035",
+      "slug": "overol-de-pana-osito",
+      "nombre": "Overol de pana Osito",
+      "categoria": "overoles",
+      "descripcion": "Overol de pana café con osito bordado y camiseta a rayas blanco y negro.",
+      "piezas": [
+        "Overol",
+        "Camiseta"
+      ],
+      "colores": [
+        "Café",
+        "Blanco",
+        "Negro"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-035.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 24,
+          "archivoOriginal": "BL-035_overol-de-pana-osito.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.15 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-036",
+      "slug": "overol-dinosaurios",
+      "nombre": "Overol Dinosaurios",
+      "categoria": "overoles",
+      "descripcion": "Overol verde oliva con estampado de dinosaurios y camiseta gris.",
+      "piezas": [
+        "Overol",
+        "Camiseta"
+      ],
+      "colores": [
+        "Verde oliva",
+        "Gris"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-036.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 23,
+          "archivoOriginal": "BL-036_overol-dinosaurios.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.15 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-037",
+      "slug": "overol-tejido-con-gorro",
+      "nombre": "Overol tejido con gorro",
+      "categoria": "overoles",
+      "descripcion": "Overol tejido azul con botón de madera y gorro tejido a juego.",
+      "piezas": [
+        "Overol",
+        "Gorro"
+      ],
+      "colores": [
+        "Azul"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-037.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 18,
+          "archivoOriginal": "BL-037_overol-tejido-con-gorro.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.14 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-038",
+      "slug": "body-conejita-y-osito",
+      "nombre": "Body Conejita y Osito",
+      "categoria": "bodies",
+      "descripcion": "Body rosa de manga larga con aplicación de conejita y osito, y ribetes florales.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Rosa"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-038.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 11,
+          "archivoOriginal": "BL-038_body-conejita-y-osito.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.12 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-039",
+      "slug": "body-rosas",
+      "nombre": "Body Rosas",
+      "categoria": "bodies",
+      "descripcion": "Body de manga corta con estampado de rosas y flor de tul aplicada.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Rosa",
+        "Blanco"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-039.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 15,
+          "archivoOriginal": "BL-039_body-rosas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.13 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-040",
+      "slug": "body-cerezas",
+      "nombre": "Body Cerezas",
+      "categoria": "bodies",
+      "descripcion": "Body sin mangas marfil con volantes y cerezas bordadas.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Marfil",
+        "Rojo"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-040.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 14,
+          "archivoOriginal": "BL-040_body-cerezas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.13 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-041",
+      "slug": "body-lazos",
+      "nombre": "Body Lazos",
+      "categoria": "bodies",
+      "descripcion": "Body de manga larga con estampado de lazos rosa y ribetes al tono.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Marfil",
+        "Rosa"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-041.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 13,
+          "archivoOriginal": "BL-041_body-lazos.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.12 PM (4).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-042",
+      "slug": "body-lacitos",
+      "nombre": "Body Lacitos",
+      "categoria": "bodies",
+      "descripcion": "Body marfil de manga larga con lacitos rosa y ribetes en contraste.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Marfil",
+        "Rosa"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-042.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 16,
+          "archivoOriginal": "BL-042_body-lacitos.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.13 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-043",
+      "slug": "body-manzanita-bordada",
+      "nombre": "Body Manzanita bordada",
+      "categoria": "bodies",
+      "descripcion": "Body rosa palo de manga corta con manzana aplicada y frase bordada.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Rosa palo"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-043.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 46,
+          "archivoOriginal": "BL-043_body-manzanita-bordada.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.20 PM (3).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-044",
+      "slug": "body-manzanitas",
+      "nombre": "Body Manzanitas",
+      "categoria": "bodies",
+      "descripcion": "Body de manga corta con estampado de manzanitas y ribetes rosa.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Crudo",
+        "Malva"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-044.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 43,
+          "archivoOriginal": "BL-044_body-manzanitas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.20 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-045",
+      "slug": "body-frutal",
+      "nombre": "Body Frutal",
+      "categoria": "bodies",
+      "descripcion": "Body de manga corta con estampado de manzanas y ribetes ciruela.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Blanco",
+        "Ciruela"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-045.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 44,
+          "archivoOriginal": "BL-045_body-frutal.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.20 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-046",
+      "slug": "body-marinero",
+      "nombre": "Body Marinero",
+      "categoria": "bodies",
+      "descripcion": "Body blanco con cuello marinero azul marino y ancla bordada.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Blanco",
+        "Azul marino"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-046.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 48,
+          "archivoOriginal": "BL-046_body-marinero.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.21 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-047",
+      "slug": "body-rayas-marineras",
+      "nombre": "Body rayas marineras",
+      "categoria": "bodies",
+      "descripcion": "Body a rayas blanco y azul marino con bolsillo en contraste.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Blanco",
+        "Azul marino"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-047.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 50,
+          "archivoOriginal": "BL-047_body-rayas-marineras.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.21 PM (2).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-048",
+      "slug": "body-anclas",
+      "nombre": "Body Anclas",
+      "categoria": "bodies",
+      "descripcion": "Body celeste de manga corta con estampado de anclas y veleros.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Celeste",
+        "Azul marino"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-048.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 49,
+          "archivoOriginal": "BL-048_body-anclas.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.21 PM (1).jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-049",
+      "slug": "body-veleros",
+      "nombre": "Body Veleros",
+      "categoria": "bodies",
+      "descripcion": "Body blanco de manga corta con veleros estampados y ribetes azul marino.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Blanco",
+        "Azul marino"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-049.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 31,
+          "archivoOriginal": "BL-049_body-veleros.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.17 PM.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "BL-050",
+      "slug": "body-autitos",
+      "nombre": "Body Autitos",
+      "categoria": "bodies",
+      "descripcion": "Body de manga corta con estampado de autitos y ribetes azul grisáceo.",
+      "piezas": [
+        "Body"
+      ],
+      "colores": [
+        "Crudo",
+        "Azul grisáceo"
+      ],
+      "variantes": [],
+      "imagenes": [
+        "BL-050.jpg"
+      ],
+      "referencia": null,
+      "precio": null,
+      "tallas": [],
+      "activo": true,
+      "destacado": false,
+      "_origen": [
+        {
+          "foto": 47,
+          "archivoOriginal": "BL-050_body-autitos.jpeg",
+          "archivoAnterior": "WhatsApp Image 2026-11-24 at 12.51.20 PM (4).jpeg"
+        }
+      ]
+    }
+  ]
+}

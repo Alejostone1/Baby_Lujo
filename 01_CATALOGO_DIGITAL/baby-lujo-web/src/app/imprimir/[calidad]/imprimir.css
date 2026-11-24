@@ -1,0 +1,135 @@
+/* ── Catálogo editorial A4 ─────────────────────────────────────────
+   Retícula: márgenes de 18 mm (exterior), 16 mm arriba, 20 mm abajo.
+   Cabecera a 9 mm, pie a 9 mm. Todas las medidas en milímetros. */
+@page { size: A4; margin: 0; }
+
+.pdf { background: #d9d0c6; padding: 10mm 0; display: flex; flex-direction: column; align-items: center; gap: 8mm; }
+@media print { .pdf { background: none; padding: 0; gap: 0; display: block; } }
+
+.hoja {
+  position: relative; width: 210mm; height: 297mm; overflow: hidden;
+  background: var(--color-marfil); color: var(--color-tinta);
+  break-after: page; page-break-after: always;
+  font-family: var(--font-sans); font-size: 9.4pt; line-height: 1.6;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.hoja:last-child { break-after: auto; page-break-after: auto; }
+.hoja img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+
+/* Arco de boiserie: foto con remate de medio punto y filete dorado desplazado */
+.arco-pdf { position: absolute; }
+.arco-pdf img { border-radius: 50% 50% 0 0 / var(--r) var(--r) 0 0; }
+.arco-pdf::after {
+  content: ""; position: absolute; inset: -3.2mm -3.2mm 0; border: .22mm solid var(--color-dorado); border-bottom: 0;
+  border-radius: 50% 50% 0 0 / var(--r2) var(--r2) 0 0;
+}
+
+.antetitulo { font-size: 7pt; letter-spacing: .32em; text-transform: uppercase; color: var(--color-bronce); }
+.centro { text-align: center; margin-left: auto; margin-right: auto; }
+.filete { width: 22mm; height: .22mm; background: var(--color-dorado); margin: 7mm 0; position: relative; }
+.filete::after { content: ""; position: absolute; left: 50%; top: 50%; width: 1.6mm; height: 1.6mm; background: var(--color-dorado); transform: translate(-50%, -50%) rotate(45deg); }
+.titulo-pagina { font-family: var(--font-display); font-size: 25pt; letter-spacing: .06em; line-height: 1.15; text-align: center; margin-top: 3mm; }
+
+.cabecera { position: absolute; top: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; font-size: 6.6pt; letter-spacing: .34em; text-transform: uppercase; color: var(--color-taupe); padding-bottom: 2.4mm; border-bottom: .18mm solid color-mix(in srgb, var(--color-dorado) 55%, transparent); }
+.cabecera-cat { color: var(--color-bronce); }
+.pie { position: absolute; bottom: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: baseline; font-size: 6.6pt; letter-spacing: .28em; text-transform: uppercase; color: var(--color-taupe); }
+.pie-num { font-family: var(--font-display); font-size: 8.5pt; letter-spacing: .12em; color: var(--color-tinta); }
+.pie-num i { font-style: normal; color: var(--color-dorado); font-size: 5pt; vertical-align: middle; margin-right: 1.5mm; }
+.pie-num em { font-style: normal; color: var(--color-taupe); font-size: 6.6pt; }
+
+/* Portada */
+.marco-doble { position: absolute; inset: 9mm; border: .25mm solid var(--color-dorado); }
+.marco-doble::after { content: ""; position: absolute; inset: 1.6mm; border: .15mm solid color-mix(in srgb, var(--color-dorado) 60%, transparent); }
+.portada-logo { position: absolute; width: 92mm !important; height: 92mm !important; left: 59mm; top: 20mm; object-fit: contain !important; }
+.portada-foto { left: 54mm; width: 102mm; top: 118mm; height: 136mm; --r: 37.5%; --r2: 38.9%; }
+.portada-pie { position: absolute; bottom: 20mm; left: 0; right: 0; text-align: center; font-size: 7.4pt; letter-spacing: .4em; text-transform: uppercase; color: var(--color-taupe); }
+.portada-pie i { font-style: normal; color: var(--color-dorado); margin: 0 3mm; }
+
+/* Presentación de marca */
+.marca-texto { position: absolute; left: 22mm; top: 0; bottom: 20mm; width: 82mm; display: flex; flex-direction: column; justify-content: center; }
+.marca-lema { font-family: var(--font-delicada); font-style: italic; font-size: 21pt; line-height: 1.25; color: var(--color-tinta); margin-top: 5mm; }
+.marca-texto p:not(.antetitulo):not(.marca-firma) { font-size: 9.6pt; line-height: 1.85; color: var(--color-taupe); margin-bottom: 4mm; }
+.marca-firma { font-family: var(--font-delicada); font-style: italic; font-size: 15pt; color: var(--color-bronce); margin-top: 8mm; }
+.marca-foto { right: 0; width: 86mm; top: 0; height: 297mm; --r: 15%; --r2: 15%; }
+.marca-foto::after { display: none; }
+.marca-foto img { border-radius: 0 0 0 0; }
+.marca .pie { right: 104mm; }
+
+/* Índice */
+.indice .antetitulo { padding-top: 26mm; }
+.indice-lista { position: absolute; left: 24mm; right: 24mm; top: 82mm; list-style: none; padding: 0; margin: 0; }
+.indice-lista li { display: flex; align-items: center; gap: 7mm; padding: 4.2mm 0; border-bottom: .18mm solid var(--color-beige); }
+.indice-foto { position: relative !important; flex: 0 0 22mm; height: 29.3mm; --r: 37.5%; --r2: 40.8%; }
+.indice-foto::after { inset: -1.6mm -1.6mm 0; }
+.indice-texto { flex: 0 1 92mm; }
+.indice-texto h3 { font-family: var(--font-display); font-size: 15pt; letter-spacing: .05em; }
+.indice-texto p { font-size: 8.6pt; color: var(--color-taupe); line-height: 1.5; margin-top: .8mm; }
+.indice-texto span { font-family: var(--font-delicada); font-style: italic; font-size: 11pt; color: var(--color-bronce); }
+.indice-guia { flex: 1; border-bottom: .2mm dotted var(--color-champagne); transform: translateY(2mm); }
+.indice-num { font-family: var(--font-display); font-size: 15pt; color: var(--color-bronce); }
+
+/* Separador de colección */
+.separador { background: var(--color-beige); }
+.separador-arco { position: absolute; left: 30mm; right: 30mm; top: 40mm; bottom: 38mm; border: .25mm solid var(--color-dorado); border-bottom: 0; border-radius: 75mm 75mm 0 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 16mm; }
+.separador-arco::after { content: ""; position: absolute; inset: 3mm 3mm 0; border: .15mm solid color-mix(in srgb, var(--color-dorado) 55%, transparent); border-bottom: 0; border-radius: 72mm 72mm 0 0; }
+.separador h2 { font-family: var(--font-display); font-size: 34pt; letter-spacing: .1em; line-height: 1.1; margin-top: 4mm; }
+.separador-desc { font-family: var(--font-delicada); font-style: italic; font-size: 15pt; line-height: 1.4; color: var(--color-taupe); max-width: 100mm; }
+.separador-n { margin-top: 8mm; font-size: 7pt; letter-spacing: .34em; text-transform: uppercase; color: var(--color-bronce); }
+
+/* Ficha de producto */
+.ficha-codigo { font-size: 6.8pt; letter-spacing: .32em; text-transform: uppercase; color: var(--color-bronce); }
+.ficha h3 { font-family: var(--font-display); font-size: 17pt; letter-spacing: .03em; line-height: 1.15; margin-top: 1.6mm; }
+.ficha-precio { font-family: var(--font-delicada); font-style: italic; font-size: 13pt; color: var(--color-taupe); margin-top: 1mm; }
+.ficha-desc { font-size: 9.2pt; line-height: 1.75; color: var(--color-taupe); margin-top: 3.5mm; }
+.ficha dl { margin-top: 4mm; border-top: .18mm solid var(--color-beige); }
+.ficha dl > div { display: flex; gap: 4mm; padding: 1.7mm 0; border-bottom: .18mm solid var(--color-beige); }
+.ficha dt { flex: 0 0 15mm; font-size: 6.3pt; letter-spacing: .26em; text-transform: uppercase; color: var(--color-bronce); padding-top: .6mm; }
+.ficha dd { font-size: 8.6pt; color: var(--color-tinta); }
+.ficha.centrada { text-align: center; }
+.ficha.centrada dl > div { justify-content: center; }
+.ficha.centrada dt { flex: 0 0 auto; }
+.ficha.compacta h3 { font-size: 14pt; }
+.ficha.derecha { text-align: right; }
+.ficha.derecha dl > div { justify-content: flex-end; }
+.ficha.derecha dt { flex: 0 0 auto; }
+
+/* Composición protagonista: una prenda, foto grande */
+.prota-foto { left: 47mm; width: 116mm; top: 30mm; height: 154.7mm; --r: 37.5%; --r2: 38.8%; }
+.protagonista .ficha { position: absolute; left: 34mm; right: 34mm; top: 196mm; }
+.protagonista .ficha dl { display: flex; justify-content: center; gap: 0; border: 0; }
+.protagonista .ficha dl > div { flex-direction: column; gap: .5mm; padding: 2mm 5mm; border: 0; border-left: .18mm solid var(--color-beige); }
+.protagonista .ficha dl > div:first-child { border-left: 0; }
+
+/* Composición dúo: dos prendas simétricas */
+.duo-rejilla { position: absolute; left: 18mm; right: 18mm; top: 34mm; display: grid; grid-template-columns: 1fr 1fr; gap: 16mm; }
+.duo-item { position: relative; }
+.duo-foto { position: relative !important; width: 100%; height: 115mm; --r: 34.3%; --r2: 36.1%; }
+.duo .ficha { margin-top: 9mm; }
+
+/* Composición asimétrica: una grande a la izquierda, una pequeña abajo a la derecha */
+.asim-foto-a { left: 18mm; width: 100mm; top: 28mm; height: 133.3mm; --r: 37.5%; --r2: 38.9%; }
+.asim-ficha-a { position: absolute; left: 130mm; right: 18mm; top: 52mm; }
+.asim-ficha-b { position: absolute; left: 18mm; width: 92mm; top: 196mm; }
+.asim-foto-b { left: 128mm; width: 64mm; top: 180mm; height: 85.3mm; --r: 37.5%; --r2: 39.8%; }
+
+/* Contacto */
+.contacto-arco { position: absolute; left: 24mm; right: 24mm; top: 30mm; bottom: 30mm; background: color-mix(in srgb, var(--color-beige) 65%, var(--color-marfil)); border-radius: 81mm 81mm 0 0; padding: 46mm 20mm 0; text-align: center; }
+.contacto-texto { font-size: 10pt; line-height: 1.8; color: var(--color-taupe); max-width: 112mm; margin: 0 auto; }
+.contacto-datos { margin: 10mm auto 0; max-width: 112mm; border-top: .18mm solid var(--color-champagne); }
+.contacto-datos > div { display: flex; justify-content: space-between; padding: 3mm 0; border-bottom: .18mm solid var(--color-champagne); font-size: 10.5pt; }
+.contacto-datos a { color: var(--color-tinta); text-decoration: none; }
+.contacto-datos .etiqueta { font-size: 7pt; letter-spacing: .3em; text-transform: uppercase; color: var(--color-bronce); padding-top: 1mm; }
+.contacto-datos .pendiente span:last-child { color: #a5463a; }
+.contacto-qr { display: flex; justify-content: center; gap: 18mm; margin-top: 12mm; }
+.contacto-qr a { display: flex; flex-direction: column; align-items: center; gap: 2.5mm; color: var(--color-taupe); text-decoration: none; }
+.contacto-qr span { display: block; width: 28mm; height: 28mm; }
+.contacto-qr svg { width: 100%; height: 100%; }
+.contacto-qr em { font-family: var(--font-delicada); font-size: 11pt; }
+
+/* Contraportada */
+.contraportada { background: var(--color-beige); }
+.contra-logo { position: absolute; width: 76mm !important; height: 76mm !important; left: 67mm; top: 86mm; object-fit: contain !important; }
+.contra-lema { position: absolute; top: 176mm; left: 40mm; right: 40mm; text-align: center; font-family: var(--font-delicada); font-style: italic; font-size: 15pt; color: var(--color-taupe); }
+.contra-nota { position: absolute; bottom: 20mm; left: 0; right: 0; text-align: center; font-size: 6.6pt; letter-spacing: .2em; text-transform: uppercase; color: var(--color-taupe); }
+.filete.centro { margin-left: auto; margin-right: auto; }
+.contacto-arco::after { content: ""; position: absolute; left: 50%; bottom: 14mm; width: 30mm; height: 30mm; transform: translateX(-50%); background: url(/marca/logo-transparente.png) center / contain no-repeat; opacity: .9; }

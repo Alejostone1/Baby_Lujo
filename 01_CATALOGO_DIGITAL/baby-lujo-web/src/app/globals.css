@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* ── Sistema visual BABY LUJO ─────────────────────────────────────────
+   Paleta oficial (extraída del logotipo):
+   marfil #F5EFE6 · champagne #B89B70 · beige #E8D8C8 · dorado suave #C6A46C
+   taupe #66564D · rosa empolvado #EBCFD2
+   Tinta #3D332D y bronce #8A6F47 se derivan de la paleta para garantizar legibilidad (AA). */
+@theme {
+  --color-marfil: #F5EFE6;
+  --color-marfil-claro: #FBF7F1;
+  --color-champagne: #B89B70;
+  --color-beige: #E8D8C8;
+  --color-dorado: #C6A46C;
+  --color-taupe: #66564D;
+  --color-rosa: #EBCFD2;
+  --color-tinta: #3D332D;
+  --color-bronce: #8A6F47;
+
+  --font-display: var(--font-marcellus), "Times New Roman", serif;
+  --font-sans: var(--font-jost), system-ui, sans-serif;
+  --font-delicada: var(--font-cormorant), Georgia, serif;
+
+  --ease-seda: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  background: var(--color-marfil);
+  color: var(--color-tinta);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--color-rosa); color: var(--color-tinta); }
+
+:focus-visible { outline: 1.5px solid var(--color-bronce); outline-offset: 3px; }
+
+/* ── Firma visual: el arco de boiserie ───────────────────────────────
+   Repite las molduras de la pared de cada fotografía: un arco de medio punto
+   con un filete dorado separado del borde. */
+.arco { border-radius: 50% 50% 0 0 / var(--arco-r, 50%) var(--arco-r, 50%) 0 0; overflow: hidden; }
+.arco-marco { position: relative; isolation: isolate; }
+.arco-marco::after {
+  content: ""; position: absolute; inset: calc(var(--filete, 9px) * -1) calc(var(--filete, 9px) * -1) 0;
+  border: 1px solid var(--color-dorado);
+  border-radius: 50% 50% 0 0 / var(--arco-r, 50%) var(--arco-r, 50%) 0 0;
+  border-bottom: 0; pointer-events: none; opacity: .85;
+}
+/* El arco se calcula sobre el ancho: con relación 3:4 el radio vertical equivale al 37.5 % de la altura. */
+.arco-3x4 { --arco-r: 37.5%; }
+
+.versalitas { letter-spacing: .24em; text-transform: uppercase; }
+
+/* Aparición suave al desplazarse */
+@media (prefers-reduced-motion: no-preference) {
+  .aparecer { opacity: 0; transform: translateY(14px); transition: opacity .9s var(--ease-seda), transform .9s var(--ease-seda); }
+  .aparecer.visible { opacity: 1; transform: none; }
+}
+
+.sin-scroll::-webkit-scrollbar { display: none; }
+.sin-scroll { scrollbar-width: none; }
+
+@keyframes entrada { from { opacity: 0; transform: translateY(10px) scale(.985); filter: blur(2px); } to { opacity: 1; transform: none; filter: none; } }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
