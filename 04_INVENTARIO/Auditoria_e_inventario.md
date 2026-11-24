@@ -44,18 +44,20 @@ Las categorías se definieron **por el tipo de prenda que se ve en la foto**, no
 
 Los códigos `BL-001` a `BL-050` son **identificadores internos del catálogo**, no referencias comerciales. Los nombres y las descripciones describen solo lo visible y deben ser validados.
 
+Las 51 fotos originales se renombraron con su código y nombre (por ejemplo `BL-001_vestido-de-tul-con-perlas.jpeg`). La equivalencia con los nombres de WhatsApp está en `renombrado_fotos_originales.csv`.
+
 El detalle completo (ID, nombre, colores, piezas, foto de origen y archivo original) está en `inventario.csv`, que se abre con Excel. Las fotos tratadas y renombradas están en `fotos_clasificadas/`, ordenadas por categoría.
 
 ## 5. Información pendiente (no venía en el material)
 
 | Dato | Dónde se usa | Estado |
 |---|---|---|
-| Número de WhatsApp de ventas | Botones de consulta y PDF | Pendiente |
-| Precios por producto y moneda | Fichas web y PDF | Pendiente (se muestra "Consultar precio") |
-| Tallas disponibles por producto | Fichas web y PDF | Pendiente (se muestra "Consultar tallas") |
+| Número de WhatsApp de ventas | Botones de consulta y PDF | ✓ +57 314 4264715 |
+| Precios por producto | Fichas web y PDF | Pendiente (se muestra «Precio a consultar»). Moneda: ✓ pesos colombianos |
+| Tallas disponibles por producto | Fichas web y PDF | Pendiente (se muestra «Consultar disponibilidad») |
 | Referencias comerciales propias | Fichas | Pendiente (opcional) |
 | Instagram u otras redes | Contacto | Pendiente |
 | Ciudad o zona de envíos | Contacto | Pendiente |
-| Dominio propio (si lo hay) | Publicación | Pendiente |
+| Dominio propio (si lo hay) | Publicación | Opcional. Hoy: https://baby-lujo.vercel.app |
 | Materiales o composición de las telas | Descripciones | Pendiente (opcional) |
 | Validación de nombres y categorías | Todo el catálogo | Pendiente |

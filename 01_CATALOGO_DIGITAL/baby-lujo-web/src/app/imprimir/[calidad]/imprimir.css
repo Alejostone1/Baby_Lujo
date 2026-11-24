@@ -50,10 +50,8 @@
 .marca-lema { font-family: var(--font-delicada); font-style: italic; font-size: 21pt; line-height: 1.25; color: var(--color-tinta); margin-top: 5mm; }
 .marca-texto p:not(.antetitulo):not(.marca-firma) { font-size: 9.6pt; line-height: 1.85; color: var(--color-taupe); margin-bottom: 4mm; }
 .marca-firma { font-family: var(--font-delicada); font-style: italic; font-size: 15pt; color: var(--color-bronce); margin-top: 8mm; }
-.marca-foto { right: 0; width: 86mm; top: 0; height: 297mm; --r: 15%; --r2: 15%; }
-.marca-foto::after { display: none; }
-.marca-foto img { border-radius: 0 0 0 0; }
-.marca .pie { right: 104mm; }
+.marca-foto { left: 120mm; width: 72mm; top: 98mm; height: 96mm; --r: 37.5%; --r2: 39.6%; }
+.marca::before { content: ""; position: absolute; left: 111mm; top: 60mm; bottom: 60mm; width: .2mm; background: color-mix(in srgb, var(--color-dorado) 60%, transparent); }
 
 /* Índice */
 .indice .antetitulo { padding-top: 26mm; }

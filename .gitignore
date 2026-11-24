@@ -8,3 +8,6 @@ next-env.d.ts
 # Entregables pesados que se regeneran (quedan en la carpeta local)
 02_CATALOGO_PDF/*.pdf
 04_INVENTARIO/fotos_clasificadas/
+
+# Credenciales locales
+01_CATALOGO_DIGITAL/ACCESO_PANEL.txt
